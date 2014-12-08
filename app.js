@@ -14,6 +14,10 @@ app.use(function(req, res, next) {
     next();
 });
 
+app.get('/', function (req, res) {
+  res.send('Hello World!')
+});
+
 // proxy and cache for GitHub releases
 app.get('/repos/:repoId/releases', function (req, res) {
     var repoId = req.params['repoId'];

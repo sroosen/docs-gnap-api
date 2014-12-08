@@ -26,7 +26,7 @@ app.get('/repos/:repoId/releases', function (req, res) {
     } else {
         // releases not found in cache, load them from the GitHub API
         var requestOptions = {
-            url: 'https://api.github.com/repos/infrabel/' + repoId + '/releases',
+            url: 'https://e919ac428d6944ff9f32875f3eb66a0521ba1ed5:x-oauth-basic@api.github.com/repos/infrabel/' + repoId + '/releases',
             headers: {
                 'User-Agent': 'docs-gnap-api'
             }

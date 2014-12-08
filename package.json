@@ -1,0 +1,19 @@
+{
+  "name": "docs-gnap-api",
+  "version": "1.0.0",
+  "description": "GNaP Documentation supporting API",
+  "author": "Infrabel",
+  "keywords": [
+    "ui",
+    "gnap",
+    "docs"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.10.4",
+    "moment": "^2.8.4",
+    "node-cache": "^1.0.3",
+    "request": "^2.49.0",
+    "underscore": "^1.7.0"
+  }
+}
